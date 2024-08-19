@@ -1,30 +1,40 @@
-<style>
-
-.body {
-    background-image: url(fundo.jpg);
+body {
+    background-image:url(img/blue-4k-warp-background-rlj56byhjvznamv0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    overflow: hidden;
+    
 }
 
 
 
 
 .Quadrado {
-    max-width: 600px;
+    max-width: 660px;
     margin: 50px auto;
     background-color: #3d6ce3;
-
+    opacity: 81%;
     padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    max-width: 400px;
+    margin-top: 0px;
+    position:relative ;
+    width: 350px;
+    height: 730px;
+
 }
 
 
 .cabecalho{
-    background-color: #3d6ce3;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 15px;
     text-align: center;
-    font-size: 24px;
-     font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+    
 
 }
 
@@ -37,6 +47,7 @@
 
 .titulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
 
 
@@ -54,7 +65,7 @@ h2 {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #555555;
+    color: #ffffff;
 }
 
 .form-group input,
@@ -80,17 +91,26 @@ h2 {
     color: white;
     margin-top: 20px;
     cursor: pointer;
-    width: 30%;
     padding: 10px;
     border: 1px solid #dddddd;
     border-radius: 4px;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
+    margin: 50px auto;
+    transition: background-color 0.3s;
+}
+
+.Enviar:hover {
+    background-color: green;
+    transform: scale(1.1);
+
 }
 
 .miniTexto {
     text-align: center;
     margin-top: 20px;
-    color: #777777;
+    color: #ffffff;
 }
-</style>
+
+input {
+    height: 5px;
+}
