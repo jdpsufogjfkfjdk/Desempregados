@@ -5,36 +5,23 @@ function EnviarRespostas() {
     contaDesempregado.nome = document.getElementById("nome").value;
     contaDesempregado.cpf = document.getElementById("cpf").value;
     contaDesempregado.endereco = document.getElementById("endereco").value;
-    contaDesempregado.e-mail = document.getElementById("e-mail").value;
+    contaDesempregado.email = document.getElementById("email").value;
     contaDesempregado.escolaridade = document.getElementById("escolaridade").value;
     contaDesempregado.titulo = document.getElementById("titulo").value;
     contaDesempregado.empresa = document.getElementById("empresa").value;
     contaDesempregado.tipo = document.getElementById("tipo").value;
     contaDesempregado.descricao = document.getElementById("descricao").value;
 
+    var json = JSON.stringify(contaDesempregado)
 
-
-
-
-    const contaDesempregado = {
-        "nome": nome,
-        "cpf": cpf,
-        "endereco": endereco,
-        "e-mail": e-mail,
-        "escolaridade": escolaridade,
-        "titulo": titulo,
-        "empresa": empresa,
-        "tipo": tipo,
-        "descricao": descricao
-
-    };
-
-
-    console.log(JSON.stringify(contaDesempregado, null, 2));
-
-
-
-    
-
+    console.log(json);
+    console.log(contaDesempregado.valueOf());
 
 }
+
+var formulario = document.querySelector("form")
+
+formulario.addEventListener("submit", (e) => {
+    e.preventDefault()
+    EnviarRespostas()
+})
