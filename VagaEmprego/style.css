@@ -1,0 +1,96 @@
+<style>
+
+.body {
+    background-image: url(fundo.jpg);
+}
+
+
+
+
+.Quadrado {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #3d6ce3;
+
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.cabecalho{
+    background-color: #3d6ce3;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+     font-weight: bold;
+
+}
+
+
+
+.nome{
+    background-color: white;
+  
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Enviar{
+    background-color: #45a049;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.miniTexto {
+    text-align: center;
+    margin-top: 20px;
+    color: #777777;
+}
+</style>
